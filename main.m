@@ -5,8 +5,8 @@ clear
 G=100; %number of calc. generalization error (GE) to compute E[GE]
 %true matrix parameter
 ep = 0.01/3; %means "nearly equal 0" 
-A_0=[1;3]; % true matrix
-B_0=[5 1]; % true matrix
+A_0=[1;3]; % true matrix: this example is 2-dimmensional vector (easiest case)
+B_0=[5 1]; % true matrix: this example is 2-dimmensional vector (easiest case)
 H=1; % learner factorization dimmension
 C_0=A_0*B_0;
 % Setting for making data
