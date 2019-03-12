@@ -9,7 +9,7 @@
     %% lamNMFubd2 -> [Hayashi, 2017b]: Naoki Hayashi, Sumio Watanabe. "Tighter Upper Bound of Real Log Canonical Threshold of Non-negative Matrix Factorization and its Application to Bayesian Inference." 2017 IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2017), Honolulu, Hawaii, USA. Nov. 27 - Dec 1, 2017. (2017/11/28).
     %Note
     %%if H_0=0 or H=H_0=1 or H=H_0=2, then lamNMFubd2 gives the exact value of RLCT of NMF. %
-    %%lamNMFubd2 is tighter than lamNMFubd1. %
+    %%lamNMFubd2 is tighter than lamNMFubd1.%
     lamNMFubd1 =  1/2 * ((H-H_0)*min(M,N) + H_0*(M+N-1));
     if mod(H_0,2)==0
         lamNMFubd2 = 1/2 * ((H-H_0)*min(M,N) + H_0*(M+N-2));
