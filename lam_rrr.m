@@ -5,7 +5,7 @@
     %param H: innder dimmension of learning factorization
     %param r: true inner dimmension i.e. rank
     %Refs.
-    %% [Aoyagi, 2005]: Miki Aoyagi. Sumio Watanabe. "Stochastic Complexities of Reduced Rank Regression in Bayesian Estimation", Neural Networks, 2005, No. 18, pp.924-933. 
+    %% [Aoyagi, 2005]: Miki Aoyagi. Sumio Watanabe. "Stochastic Complexities of Reduced Rank Regression in Bayesian Estimation", Neural Networks, 2005, No. 18, pp.924-933.
     if (N+r<=M+H) & (M+r<=N+H) & (H+r<=M+N)
         if mod(M+H+N+r,2)==0
             lamrrr=(-(H+r).^2-M.^2-N.^2+2.*(H+r).*(M+N)+2.*M.*N)/8;
